@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(7, 207, 164);      
+  }
+   .header{
+       margin-left: auto;
+       margin-right : auto;
+       width : 350px;
+       height: 270px;
+       border-radius: 5px/5px;
+       background-color : rgb(255, 255, 255);
+       margin-top: 180px;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+  .input-con{
+      width: 81%;
+      margin-left: 31px;
+      height: 35px;
+      margin-top: 40px;
+      cursor: pointer;
+      border-radius: 5px/5px;
+      border: 1px solid gray;
+      
+  }
+  .input-con:hover{
+    border: 1px solid rgb(4, 194, 4);
+    height: 35px;
+  }
+  
+  .submit-btn{
+      margin-top: 30px;
+      height: 35px;
+      width: 150px;
+      margin-left: 100px;
+      margin-right: auto;background-color: rgb(250, 112, 238);
+      border: none;
+      cursor: pointer;
+      font-style: normal;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: medium;
+      color: white;
+      border-radius: 5px/5px;
+  }
+  .submit-btn:hover{
+      background-color: rgb(3, 190, 50);
+      color: white;
+      font-style: normal;
+      font-size: medium;
+      border-radius: 5px/5px;
+  }
+  /* logo */
+  .logo-con{
+      margin-top: -80px;
+      height: 10px;
+      margin-bottom: 10px;
+      text-align: center;
+  }
+  .logo{
+      display: inline-block;
+      width: 300px;
+      /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  }
+ .forgot-link{
+   float: left;
+   font-size: 12px;
+   padding: 12px;
+   color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .create-account{
+   float: right;
+   font-size: 12px;
+   padding-left: 10px;
+   margin-top: 10px;
+   color: gray;
+   padding-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .forgot-link:hover{
+   color: blue;
+   font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .create-account:hover{
+   color: blue;
+   font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
